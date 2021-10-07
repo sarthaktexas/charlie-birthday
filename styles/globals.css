@@ -14,15 +14,15 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
   font-weight: normal;
-  max-width: 450px;
   margin: 50px auto;
+  padding: inherit 25px;
   display: flex;
   flex-direction: column;
   background-color: var(--page-background);
 }
 
 p {
-  max-width: 255px;
+  max-width: 75%;
   word-wrap: break-word;
   margin-bottom: 12px;
   line-height: 24px;

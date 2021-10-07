@@ -1,5 +1,4 @@
-export default function Message(props) {
-  const { name, message, link } = props;
+export default function Message({ name, message, link }) {
   return (
     <div>
       <div class="flex flex-row items-end">
